@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-IMAGE_REPOSITORY   := eu.gcr.io/gardener-project/gardener/machine-controller-manager
+IMAGE_REPOSITORY   := registry.alpha.ske.eu01.stackit.cloud/gardener-ds/machine-controller-manager
 IMAGE_TAG          := $(shell cat VERSION)
 COVERPROFILE       := test/output/coverprofile.out
 
